@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #816797;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: row;
+  background: #1B2430;
+}
+
+.header-main * {
+  color: #D6D5A8;
+  font-family: "Futura";
+  font-weight: 900;
+}
+
+.header-left {
+  text-align: left;
+  width: 25%;
+}
+
+.header-logo {
+  text-align: center;
+  font-size: 30px;
+  width: 50%;
+  margin: 10px;
+}
+
+.header-right {
+  text-align: right;
+  width: 25%;
+}
+
+span.header-subtext {
+  font-size: 15px
+}
+
+.header-right>a {
+  margin: 5px;
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+}
