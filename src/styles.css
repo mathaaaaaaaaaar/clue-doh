@@ -46,3 +46,33 @@ span.header-subtext {
   width: 48px;
   display: inline-block;
 }
+
+button.start-game-button {
+  background: #51557E;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.main-content {
+  text-align: center;
+  height: 100%;
+}
+
+.game-section {
+  width: 80%;
+  height: 80%;
+  background-color: #6A557D;
+  margin: auto;
+  position: relative;
+}
+
+.start-button-container {
+  margin: auto;
+  position: absolute;
+  top: calc( 50% - 23px );
+  left: calc( 50% - 63.13px );
+}
+
+img.board-image {
+    height: 100%;
+}
