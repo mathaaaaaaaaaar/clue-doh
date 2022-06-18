@@ -7,9 +7,8 @@ onStartGameClick = function() {
   renderGameBoard();
 };
 
-attachEventListeners = function() {
-  const startGameButton = document.getElementById("start-game");
-  startGameButton.addEventListener('click', onStartGameClick());
-};
-
-attachEventListeners();
+const startGameButton = document.querySelector("#start-game");
+startGameButton.addEventListener('click', event => {
+  onStartGameClick();
+  console.log(event);
+});
